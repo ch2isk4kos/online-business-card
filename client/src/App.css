@@ -1,1 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+/* 
+:root {
+  --primary-color:
+} */
+
+.Navbar {
+  position: fixed;
+  left: 0;
+  z-index: 50;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 100vh;
+  background-color: purple;
+  border: 2px solid green;
+}
+
+.Navbar a {
+  font-size: 2em;
+  color: #fff;
+  text-decoration: none;
+  padding: 1em;
+  text-align: center;
+}
+
+.Main {
+  min-height: 100vh;
+  border: 2px solid green;
+}
+
+.Main section {
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 0;
+  opacity: 0;
+  transition: all ease-in 0.5s;
+  border: 2px solid gold;
+}
+
+.Main section h1 {
+  color: #fff;
+  font-size: 5em;
+  text-transform: uppercase;
+  opacity: 0;
+}
+
+.Main section:target {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  z-index: 10;
+}
+
+.Main section:target h1 {
+  opacity: 1;
+  animation: 2s fadeIn forwards 0.5s;
+}
+
+@keyframes fadeIn {
+  100% {
+    opacity: 1;
+  }
+}
