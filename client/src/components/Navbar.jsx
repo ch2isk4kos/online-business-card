@@ -3,16 +3,16 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Navbar = () => {
   return (
     <nav className="Navbar">
-      <a href="#first">
+      <a href="#home">
         <FontAwesomeIcon icon="house" />
       </a>
-      <a href="#second">
+      <a href="#projects">
         <FontAwesomeIcon icon="laptop-code" />
       </a>
-      <a href="#third">
+      <a href="#about">
         <FontAwesomeIcon icon="address-card" />
       </a>
-      <a href="#fourth">
+      <a href="#contact">
         <FontAwesomeIcon icon="paper-plane" />
       </a>
     </nav>
