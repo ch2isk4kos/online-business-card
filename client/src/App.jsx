@@ -3,7 +3,11 @@ import "./App.css";
 const App = () => {
   return (
     <div className="App">
-      <h1>Welcome Home</h1>
+      <nav>
+        <a href="">
+          <i></i>
+        </a>
+      </nav>
     </div>
   );
 };
