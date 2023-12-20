@@ -6,16 +6,16 @@ import Contact from "./Contact";
 const Main = () => {
   return (
     <div className="Main">
-      <section id="first">
+      <section id="home">
         <Home />
       </section>
-      <section id="second">
+      <section id="projects">
         <Projects />
       </section>
-      <section id="third">
+      <section id="about">
         <About />
       </section>
-      <section id="fourth">
+      <section id="contact">
         <Contact />
       </section>
     </div>
