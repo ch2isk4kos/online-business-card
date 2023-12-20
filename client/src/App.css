@@ -73,3 +73,25 @@
     opacity: 1;
   }
 }
+
+.Home,
+.Projects,
+.About,
+.Contact {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border: 2px solid crimson;
+}
+
+.Home header {
+  border: 2px solid blue;
+}
+
+.Home header h1 {
+  border: 2px solid white;
+}
+
+.Home header h3 {
+  border: 2px solid white;
+}
